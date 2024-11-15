@@ -31,7 +31,6 @@ public class RegisterVM
     
     [Display(Name="Số điện thoại")]
     [MaxLength(24, ErrorMessage = "Tối đa 24 ký tự")]
-    [RegularExpression(@"0[9875]\d{8}", ErrorMessage = "Chưa đúng định dạng")]
     public string DienThoai { get; set; }
 
     [Display(Name="Email")]
